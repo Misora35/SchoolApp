@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SchoolApp</string>
+    <string name="SchoolWeb">学校WEB</string>
+    <string name="Health">検温</string>
+    <string name="notifiable">届け出</string>
+    <string name="SCH">スケジュール</string>
+    <string name="request">公認欠席申請</string>
+</resources>
