@@ -17,7 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Button Button = findViewById(R.id.button);
         Button Button2 = findViewById(R.id.button2);
         Button Button3 = findViewById(R.id.button3);
+        Button Button4 = findViewById(R.id.button4);
+        Button Button5 = findViewById(R.id.button5);
         Button Button6 = findViewById(R.id.button6);
+        Button Button7 = findViewById(R.id.button7);
+        Button Button8 = findViewById(R.id.button8);
 
         Button.setOnClickListener((View v) -> {
             startActivity(new Intent(MainActivity.this, HITPbrowser.class));
@@ -31,8 +35,21 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, Absence.class));
         });
 
-        Button6.setOnClickListener((View v) -> {
+        Button4.setOnClickListener((View v) -> {
+            startActivity(new Intent(MainActivity.this, timetable.class));
+        });
+
+        Button5.setOnClickListener((View v) -> {
             startActivity(new Intent(MainActivity.this, HITPYtube.class));
+        });
+        Button6.setOnClickListener((View v) -> {
+            startActivity(new Intent(MainActivity.this, Management.class));
+        });
+        Button7.setOnClickListener((View v) -> {
+            startActivity(new Intent(MainActivity.this, Instagram.class));
+        });
+        Button8.setOnClickListener((View v) -> {
+            startActivity(new Intent(MainActivity.this, Twitter.class));
         });
     }
 }

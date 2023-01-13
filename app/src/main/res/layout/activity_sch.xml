@@ -14,10 +14,9 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/name1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="鮎川　尚樹"
             android:textSize="20dp"/>
 
         <TextView

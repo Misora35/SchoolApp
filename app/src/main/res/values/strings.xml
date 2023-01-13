@@ -3,6 +3,19 @@
     <string name="SchoolWeb">学校WEB</string>
     <string name="Health">検温</string>
     <string name="notifiable">届け出</string>
+    <string name="login">登録画面</string>
     <string name="SCH">スケジュール</string>
     <string name="request">公認欠席申請</string>
+    <string name="AttMana">出席管理</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Twitter">Twitter</string>
+
+    <string name="network">ネットワーク構築Ⅱ</string>
+    <string name="system">システム開発実践</string>
+    <string name="mobile">モバイルプログラミングⅡ</string>
+    <string name="business">ビジネスデータ分析</string>
+    <string name="exam">情報処理試験対策Ⅴ</string>
+    <string name="promane">プロジェクトマネジメント</string>
+    <string name="lifestyle">生き方講座Ⅵ</string>
+    <string name="AI">AIプログラミング</string>
 </resources>

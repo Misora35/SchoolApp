@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class HITPbrowser extends AppCompatActivity {
+public class Management extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hitpbrowser);
+        setContentView(R.layout.activity_management);
 
-        WebView myWebView = (WebView) findViewById(R.id.WebView);
+        WebView myWebView = (WebView) findViewById(R.id.Attend);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.hitp.ac.jp");
+        myWebView.loadUrl("http://192.168.0.131:5000/");
     }
 }

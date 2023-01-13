@@ -3,6 +3,7 @@ package jp.ac.hitp.it2073502.schoolapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 
 public class Health extends AppCompatActivity {
@@ -13,6 +14,8 @@ public class Health extends AppCompatActivity {
         setContentView(R.layout.activity_health);
 
         WebView Heal = (WebView) findViewById(R.id.Heal);
+        WebSettings webSettings = Heal.getSettings();
+        webSettings.setJavaScriptEnabled(true);
         Heal.loadUrl("https://forms.office.com/Pages/ResponsePage.aspx?id=vL6qjbE1nk6BKnUwcNaqRL0SbFlyEZlJhAH6offwLHlUNkRNMzZONjhRR0EwRTJTRVJVMVlVWTVKOS4u&qrcode=true\n" +
                 "Please fill out this form");
     }

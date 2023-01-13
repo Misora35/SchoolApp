@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class HITPbrowser extends AppCompatActivity {
+public class Instagram extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hitpbrowser);
+        setContentView(R.layout.activity_instagram);
 
-        WebView myWebView = (WebView) findViewById(R.id.WebView);
-        WebSettings webSettings = myWebView.getSettings();
+        WebView insta = findViewById(R.id.Instagram);
+        WebSettings webSettings = insta.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.hitp.ac.jp");
+        insta.loadUrl("https://www.instagram.com/hitp_koudaisen/");
     }
 }

@@ -94,7 +94,9 @@ public class CalendarAdapter extends BaseAdapter {
     }
     @Override
     public Object getItem(int position) {
+
         return dateArray.get(position);
+
     }
 
     //表示月を取得
@@ -116,5 +118,4 @@ public class CalendarAdapter extends BaseAdapter {
         dateArray = mDateManager.getDays();
         this.notifyDataSetChanged();
     }
-
 }

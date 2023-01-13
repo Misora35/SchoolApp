@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TimeSchedule"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="時間割"
+        android:textSize="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/network"/>
+            <Button
+                android:text="@string/system"/>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/system"
+                />
+            <Button
+                android:text="@string/mobile"/>
+            <Button
+                android:text="@string/business"/>
+            <Button
+                android:text="@string/exam"/>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/system"/>
+            <Button
+                android:text="@string/promane"/>
+            <Button
+                android:text="@string/lifestyle"/>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/system"/>
+            <Button
+                android:text="@string/AI"/>
+            <Button
+                android:text="@string/exam"/>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <Button
+                android:text="@string/mobile"/>
+            <Button
+                android:text="@string/mobile"/>
+            <Button
+                android:text="@string/mobile"/>
+            <Button
+                android:text="@string/mobile"/>
+
+        </TableLayout>
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:columnCount="5">
+    </GridLayout>
+<!--    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="5"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"/>
+
+
+
+
+    </GridLayout>
+    -->
+</LinearLayout>

@@ -6,16 +6,16 @@ import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class HITPbrowser extends AppCompatActivity {
+public class Twitter extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hitpbrowser);
+        setContentView(R.layout.activity_twitter);
 
-        WebView myWebView = (WebView) findViewById(R.id.WebView);
-        WebSettings webSettings = myWebView.getSettings();
+        WebView twitter = findViewById(R.id.Twitter);
+        WebSettings webSettings = twitter.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.hitp.ac.jp");
+        twitter.loadUrl("https://twitter.com/hitp_koudaisen?t=m-1dw-2j3ubxFAS8-HM87g&s=06");
     }
 }
