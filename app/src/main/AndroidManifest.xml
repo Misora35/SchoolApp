@@ -19,6 +19,9 @@
         android:theme="@style/Theme.SchoolApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".memo"
+            android:exported="false"/>
+        <activity
             android:name=".Twitter"
             android:exported="false" />
         <activity

@@ -9,6 +9,7 @@
     <string name="AttMana">出席管理</string>
     <string name="Instagram">Instagram</string>
     <string name="Twitter">Twitter</string>
+    <string name="Memo">メモ帳アプリ</string>
 
     <string name="network">ネットワーク構築Ⅱ</string>
     <string name="system">システム開発実践</string>
@@ -18,4 +19,10 @@
     <string name="promane">プロジェクトマネジメント</string>
     <string name="lifestyle">生き方講座Ⅵ</string>
     <string name="AI">AIプログラミング</string>
+
+    <string name="tv_lb_name">タイトル:</string>
+    <string name="tv_lb_note">内容:</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_add">追加</string>
+    <string name="btn_delete">削除</string>
 </resources>

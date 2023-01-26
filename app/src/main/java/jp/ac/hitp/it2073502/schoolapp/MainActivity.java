@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button Button6 = findViewById(R.id.button6);
         Button Button7 = findViewById(R.id.button7);
         Button Button8 = findViewById(R.id.button8);
+        Button Button9 = findViewById(R.id.button9);
 
         Button.setOnClickListener((View v) -> {
             startActivity(new Intent(MainActivity.this, HITPbrowser.class));
@@ -50,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
         });
         Button8.setOnClickListener((View v) -> {
             startActivity(new Intent(MainActivity.this, Twitter.class));
+        });
+        Button9.setOnClickListener((View v) -> {
+            startActivity(new Intent(MainActivity.this, memo.class));
         });
     }
 }
